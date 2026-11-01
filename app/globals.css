@@ -1,0 +1,22 @@
+@import "@laptopclub/foundation-ui/icons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: Inter;
+  --color-brand-50: 248 244 239;
+  --color-brand-100: 232 220 209;
+  --color-brand-500: 132 100 78;
+  --color-brand-600: 105 76 59;
+  --color-brand-900: 45 33 26;
+  --color-surface-canvas: 250 248 245;
+  --color-surface-muted: 239 234 229;
+  --color-ink-base: 45 33 26;
+  --color-ink-muted: 111 96 86;
+}
+
+body {
+  @apply bg-surface-canvas text-ink-base antialiased;
+}
