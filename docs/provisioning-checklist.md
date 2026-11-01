@@ -13,18 +13,18 @@ Generated: 2026-11-01T19:23:18.865Z
 
 ## 1. Repository
 
-- [ ] Create repository `laptopclub/stephbrazier`.
-- [ ] Copy the Foundation consumer site template.
-- [ ] Commit `README.md`, `AGENTS.md`, `.gitignore`, `.vercelignore`, `.npmrc`, CI and Dependabot config.
-- [ ] Confirm the site is not workspace-linked to Foundation.
+- [x] Create repository `laptopclub/stephbrazier`.
+- [x] Copy the Foundation consumer site template.
+- [x] Commit `README.md`, `AGENTS.md`, `.gitignore`, `.vercelignore`, `.npmrc`, CI and Dependabot config.
+- [x] Confirm the site is not workspace-linked to Foundation.
 
 ## 2. Package access
 
-- [ ] Add the site to `docs/consumer-sites.json` before credential distribution.
-- [ ] Configure GitHub Packages access for local development.
-- [ ] Add package-read token to GitHub Actions secrets.
-- [ ] Add package-read token to Vercel environment variables.
-- [ ] Run `pnpm install --frozen-lockfile` from a clean checkout.
+- [x] Add the site to `docs/consumer-sites.json` before credential distribution.
+- [x] Configure GitHub Packages access for local development.
+- [x] Add package-read token to GitHub Actions secrets.
+- [x] Add package-read token to Vercel environment variables.
+- [x] Run `pnpm install --frozen-lockfile` from a clean checkout.
 
 ## 3. Sanity
 
@@ -36,11 +36,11 @@ Generated: 2026-11-01T19:23:18.865Z
 
 ## 4. Vercel
 
-- [ ] Create Vercel project.
+- [x] Create Vercel project.
 - [ ] Set Node.js 24.x.
 - [ ] Add public env vars and secrets.
-- [ ] Configure install command if private package auth requires it.
-- [ ] Confirm preview and production builds pass.
+- [x] Configure install command if private package auth requires it.
+- [x] Confirm preview and production builds pass.
 
 ## 5. Revalidation
 
@@ -51,22 +51,22 @@ Generated: 2026-11-01T19:23:18.865Z
 
 ## 6. Content, voice and branding
 
-- [ ] Capture content voice in `AGENTS.md`.
+- [x] Capture content voice in `AGENTS.md`.
 - [ ] Configure site settings, navigation and footer links.
-- [ ] Define semantic brand, surface and ink tokens.
-- [ ] Keep client-specific styling and composition in the client repository.
+- [x] Define semantic brand, surface and ink tokens.
+- [x] Keep client-specific styling and composition in the client repository.
 
 ## 7. Domains
 
-- [ ] Add production and preview domains in Vercel.
+- [x] Add production and preview domains in Vercel.
 - [ ] Configure DNS.
 - [ ] Verify SSL and redirects.
 
 ## 8. Validation
 
-- [ ] Run `pnpm validate:site ../stephbrazier` from Foundation.
-- [ ] Run `pnpm validate:site ../stephbrazier --run-checks` before launch.
-- [ ] Smoke-test production routes.
-- [ ] Add the site to `docs/consumer-sites.json`.
+- [x] Run `pnpm validate:site ../stephbrazier` from Foundation.
+- [x] Run `pnpm validate:site ../stephbrazier --run-checks` before launch.
+- [x] Smoke-test production routes.
+- [x] Add the site to `docs/consumer-sites.json`.
 - [ ] Run `pnpm validate:fleet`.
 - [ ] Run `pnpm check:drift`.

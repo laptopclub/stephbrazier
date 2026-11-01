@@ -11,9 +11,8 @@ This file captures site-specific rules for AI agents working in this client repo
 
 ## Content voice
 
-- Write site copy from the agreed client perspective.
-- Capture whether copy should be first-person, third-person or brand voice during provisioning.
-- Keep client-specific terminology and banned phrases here.
+- Keep holding-page copy concise, neutral and factual.
+- Do not invent biographical, service or contact details before they are supplied.
 
 ## Boundaries
 
